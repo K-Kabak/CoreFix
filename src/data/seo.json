@@ -1,0 +1,61 @@
+{
+  "default": {
+    "title": "CoreFix - Profesjonalny Serwis Komputerowy Warszawa",
+    "titleTemplate": "%s | CoreFix Serwis Komputerowy",
+    "description": "CoreFix - profesjonalny serwis komputerowy w Warszawie. Naprawa laptopów, PC, wymiana dysku SSD, odzyskiwanie danych. Szybko, profesjonalnie, tanio. Zadzwoń: +48 22 123 45 67",
+    "keywords": "serwis komputerowy warszawa, naprawa laptopów, naprawa komputerów, serwis pc warszawa, wymiana dysku ssd, odzyskiwanie danych, naprawa laptopów warszawa, serwis laptopów, upgrade komputera",
+    "author": "CoreFix",
+    "language": "pl",
+    "robots": "index, follow",
+    "canonical": "https://corefix.pl"
+  },
+  "pages": {
+    "home": {
+      "title": "CoreFix - Profesjonalny Serwis Komputerowy Warszawa",
+      "description": "Profesjonalny serwis komputerowy w Warszawie. Naprawa laptopów, PC, wymiana podzespołów, odzyskiwanie danych. Darmowa diagnostyka. Sprawdź nas! ☎ +48 22 123 45 67",
+      "keywords": "serwis komputerowy warszawa, naprawa laptopów warszawa, serwis pc, naprawa komputerów warszawa, serwis laptopów warszawa, wymiana dysku, upgrade pc",
+      "canonical": "https://corefix.pl"
+    },
+    "services": {
+      "title": "Usługi Serwisowe",
+      "description": "Kompleksowe usługi serwisu komputerowego: naprawa laptopów i PC, wymiana dysku SSD, czyszczenie z wirusów, odzyskiwanie danych, upgrade komponentów. Sprawdź pełną ofertę!",
+      "keywords": "usługi serwisowe, naprawa laptopów, wymiana dysku ssd, odzyskiwanie danych, czyszczenie z wirusów, upgrade komputera, wymiana matrycy laptop, naprawa komputera",
+      "canonical": "https://corefix.pl/uslugi"
+    },
+    "contact": {
+      "title": "Kontakt",
+      "description": "Skontaktuj się z CoreFix - profesjonalny serwis komputerowy w Warszawie. Zadzwoń: +48 22 123 45 67, napisz: kontakt@corefix.pl. Odwiedź nas: ul. Marszałkowska 1, Warszawa.",
+      "keywords": "kontakt serwis komputerowy warszawa, numer telefonu serwis komputerowy, adres serwis komputerowy warszawa, corefix kontakt",
+      "canonical": "https://corefix.pl/kontakt"
+    }
+  },
+  "openGraph": {
+    "type": "website",
+    "locale": "pl_PL",
+    "url": "https://corefix.pl",
+    "siteName": "CoreFix - Serwis Komputerowy",
+    "title": "CoreFix - Profesjonalny Serwis Komputerowy Warszawa",
+    "description": "Profesjonalny serwis komputerowy w Warszawie. Naprawa laptopów, PC, wymiana dysku SSD, odzyskiwanie danych. Szybko, profesjonalnie, tanio.",
+    "images": [
+      {
+        "url": "https://corefix.pl/og-image.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "CoreFix - Serwis Komputerowy Warszawa"
+      }
+    ]
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "site": "@CoreFixPL",
+    "creator": "@CoreFixPL",
+    "title": "CoreFix - Profesjonalny Serwis Komputerowy Warszawa",
+    "description": "Profesjonalny serwis komputerowy w Warszawie. Naprawa laptopów, PC, wymiana dysku SSD, odzyskiwanie danych.",
+    "image": "https://corefix.pl/twitter-image.jpg",
+    "imageAlt": "CoreFix - Serwis Komputerowy Warszawa"
+  },
+  "structuredData": {
+    "enabled": true,
+    "schemas": ["LocalBusiness", "BreadcrumbList", "Service"]
+  }
+}

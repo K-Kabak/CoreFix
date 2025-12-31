@@ -1,0 +1,261 @@
+{
+  "hero": {
+    "headline": "Profesjonalny Serwis Komputerowy w Warszawie",
+    "subheadline": "Naprawiamy laptopy, komputery stacjonarne i serwery. Szybko, rzetelnie, z gwarancją.",
+    "cta": {
+      "primary": "Umów wizytę",
+      "secondary": "Zobacz usługi"
+    }
+  },
+  "about": {
+    "title": "Dlaczego CoreFix?",
+    "values": [
+      {
+        "icon": "shield",
+        "title": "Gwarancja jakości",
+        "description": "Każda naprawa objęta 6-miesięczną gwarancją. Używamy wyłącznie oryginalnych części."
+      },
+      {
+        "icon": "wrench",
+        "title": "Doświadczenie",
+        "description": "Ponad 10 lat w branży serwisowej. Setki zadowolonych klientów indywidualnych i firmowych."
+      },
+      {
+        "icon": "laptop",
+        "title": "Szybka realizacja",
+        "description": "Większość napraw wykonujemy w ciągu 24-48 godzin. Pilne zlecenia w trybie ekspresowym."
+      },
+      {
+        "icon": "hdd",
+        "title": "Kompleksowa obsługa",
+        "description": "Od diagnostyki, przez naprawę, aż po odzyskiwanie danych. Wszystko w jednym miejscu."
+      }
+    ]
+  },
+  "services": [
+    {
+      "id": 1,
+      "title": "Naprawa laptopów",
+      "description": "Wymiana matryc, klawiatur, zasilaczy, chłodzenia. Naprawa płyt głównych i układów graficznych.",
+      "price": "od 150 zł",
+      "icon": "laptop"
+    },
+    {
+      "id": 2,
+      "title": "Naprawa PC",
+      "description": "Diagnostyka i naprawa komputerów stacjonarnych. Wymiana podzespołów, upgrade sprzętu.",
+      "price": "od 100 zł",
+      "icon": "wrench"
+    },
+    {
+      "id": 3,
+      "title": "Odzyskiwanie danych",
+      "description": "Profesjonalne odzyskiwanie danych z uszkodzonych dysków HDD i SSD. Analiza w laboratorium.",
+      "price": "od 300 zł",
+      "icon": "hdd"
+    },
+    {
+      "id": 4,
+      "title": "Usuwanie wirusów",
+      "description": "Kompleksowe czyszczenie systemu z malware. Instalacja zabezpieczeń i optymalizacja.",
+      "price": "od 120 zł",
+      "icon": "shield"
+    },
+    {
+      "id": 5,
+      "title": "Instalacja systemów",
+      "description": "Czysta instalacja Windows, Linux, MacOS. Konfiguracja oprogramowania i sterowników.",
+      "price": "od 80 zł",
+      "icon": "laptop"
+    },
+    {
+      "id": 6,
+      "title": "Serwis firmowy",
+      "description": "Opieka IT dla firm. Serwis serwerów, sieci komputerowych. Umowy abonamentowe.",
+      "price": "wycena indywidualna",
+      "icon": "wrench"
+    }
+  ],
+  "process": {
+    "title": "Jak działamy?",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Kontakt",
+        "description": "Zadzwoń lub napisz. Opisz problem - wstępnie określimy zakres naprawy."
+      },
+      {
+        "number": 2,
+        "title": "Diagnostyka",
+        "description": "Bezpłatna diagnoza w naszym serwisie. Szczegółowa wycena po analizie usterki."
+      },
+      {
+        "number": 3,
+        "title": "Akceptacja",
+        "description": "Przedstawiamy kosztorys i czas realizacji. Zaczynamy pracę po Twojej akceptacji."
+      },
+      {
+        "number": 4,
+        "title": "Naprawa",
+        "description": "Profesjonalna naprawa przez certyfikowanych techników. Na bieżąco informujemy o postępach."
+      },
+      {
+        "number": 5,
+        "title": "Odbiór",
+        "description": "Sprawdź działanie urządzenia. Otrzymujesz fakturę i kartę gwarancyjną."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Cennik pakietów",
+    "packages": [
+      {
+        "name": "Basic",
+        "price": "199 zł",
+        "description": "Dla klientów indywidualnych",
+        "features": [
+          "Diagnostyka + czyszczenie",
+          "Optymalizacja systemu",
+          "Instalacja zabezpieczeń",
+          "Backup danych",
+          "3 miesiące gwarancji"
+        ],
+        "featured": false
+      },
+      {
+        "name": "Professional",
+        "price": "399 zł",
+        "description": "Kompleksowy serwis",
+        "features": [
+          "Wszystko z pakietu Basic",
+          "Wymiana jednego podzespołu",
+          "Odzyskiwanie danych (do 100GB)",
+          "Konfiguracja oprogramowania",
+          "6 miesięcy gwarancji",
+          "Wsparcie telefoniczne 30 dni"
+        ],
+        "featured": true
+      },
+      {
+        "name": "Business",
+        "price": "od 599 zł/mc",
+        "description": "Dla firm i instytucji",
+        "features": [
+          "Opieka IT - umowa abonamentowa",
+          "Serwis na miejscu u klienta",
+          "Priorytetowa obsługa",
+          "Zarządzanie infrastrukturą",
+          "12 miesięcy gwarancji",
+          "Wsparcie 24/7"
+        ],
+        "featured": false
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Jak długo trwa naprawa?",
+      "answer": "Większość standardowych napraw realizujemy w ciągu 24-48 godzin. Skomplikowane przypadki (np. naprawa płyty głównej) mogą zająć do 5 dni roboczych. Oferujemy także tryb ekspresowy - naprawa w ciągu 4 godzin."
+    },
+    {
+      "question": "Czy naprawa jest objęta gwarancją?",
+      "answer": "Tak, każda wykonana przez nas naprawa ma 6-miesięczną gwarancję. Obejmuje ona zarówno wykonaną usługę, jak i zamontowane części. Gwarancja nie obejmuje uszkodzeń mechanicznych powstałych po naprawie."
+    },
+    {
+      "question": "Czy mogę zostawić sprzęt do naprawy od razu?",
+      "answer": "Tak, jeśli dysponujemy czasem, możemy przyjąć sprzęt od razu. Jednak zalecamy wcześniejszy kontakt telefoniczny, aby umówić konkretny termin - zaoszczędzisz czas oczekiwania."
+    },
+    {
+      "question": "Co jeśli naprawa będzie nieopłacalna?",
+      "answer": "Po diagnostyce przedstawiamy szczegółową wycenę. Jeśli koszt naprawy przekracza wartość urządzenia, zawsze informujemy o tym klienta. Diagnostyka jest bezpłatna - nic nie tracisz."
+    },
+    {
+      "question": "Czy naprawiacie sprzęt Apple?",
+      "answer": "Tak, serwisujemy MacBooki, iMaci i inne urządzenia Apple. Mamy dostęp do oryginalnych części i specjalistyczne narzędzia. Nie jesteśmy autoryzowanym serwisem Apple (ASP)."
+    },
+    {
+      "question": "Czy oferujecie naprawy w siedzibie klienta?",
+      "answer": "Tak, oferujemy serwis na miejscu dla klientów firmowych w ramach pakietu Business. Dla klientów indywidualnych dostępny jest dojazd za dodatową opłatą (50 zł w obrębie Warszawy)."
+    },
+    {
+      "question": "Jakie metody płatności akceptujecie?",
+      "answer": "Akceptujemy gotówkę, przelewy bankowe oraz płatności kartą (Visa, Mastercard, Blik). Dla firm wystawiamy faktury z odroczonym terminem płatności (po ustaleniach)."
+    },
+    {
+      "question": "Czy mogę odzyskać dane z uszkodzonego dysku?",
+      "answer": "W większości przypadków tak. Prowadzimy diagnostykę dysku w specjalistycznym laboratorium. Sukces zależy od rodzaju uszkodzenia - uszkodzenia logiczne (90% szans), uszkodzenia fizyczne (40-70% szans)."
+    },
+    {
+      "question": "Czy moje dane są bezpieczne podczas naprawy?",
+      "answer": "Bezpieczeństwo danych klienta to nasz priorytet. Nie przeglądamy plików, nie robimy kopii zapasowych bez zgody. Polecamy jednak zrobienie backupu przed serwisem (jeśli to możliwe)."
+    },
+    {
+      "question": "Jak mogę umówić wizytę?",
+      "answer": "Najszybciej telefonicznie pod numerem +48 123 456 789 (pon-pt 9-18, sob 10-14). Możesz także napisać na email: kontakt@corefix.pl lub wypełnić formularz kontaktowy na stronie."
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Anna Kowalska",
+      "rating": 5,
+      "text": "Profesjonalna obsługa! Laptop wrócił do mnie następnego dnia, działa jak nowy. Wymienili matrycę i dokładnie wszystko sprawdzili. Polecam!",
+      "date": "2024-11-15"
+    },
+    {
+      "id": 2,
+      "name": "Piotr Wiśniewski",
+      "rating": 5,
+      "text": "Świetny kontakt, jasna wycena, szybka realizacja. Odzyskali dane z uszkodzonego dysku - myślałem, że wszystko stracone. Wielkie dzięki!",
+      "date": "2024-10-28"
+    },
+    {
+      "id": 3,
+      "name": "Firma 'Tech Solutions' Sp. z o.o.",
+      "rating": 5,
+      "text": "Korzystamy z usług CoreFix od roku w ramach opieki abonamentowej. Rzetelni, szybcy, zawsze dyspozycyjni. Wreszcie IT, które działa!",
+      "date": "2024-12-01"
+    },
+    {
+      "id": 4,
+      "name": "Marek Nowak",
+      "rating": 4,
+      "text": "Bardzo dobry serwis. Jedyny minus to cena, ale jakość wykonania rekompensuje. Laptop po naprawie działa świetnie, gwarancja daje spokój.",
+      "date": "2024-09-20"
+    },
+    {
+      "id": 5,
+      "name": "Katarzyna Lewandowska",
+      "rating": 5,
+      "text": "Komputer się nie włączał - panika! W CoreFix zdiagnozowali problem w godzinę i tego samego dnia naprawili. Obsługa na medal!",
+      "date": "2024-11-03"
+    },
+    {
+      "id": 6,
+      "name": "Tomasz Zieliński",
+      "rating": 5,
+      "text": "Polecam każdemu! Fachowa pomoc, uczciwe ceny, transparentna komunikacja. Naprawili mojego MacBooka i wytłumaczyli co było nie tak.",
+      "date": "2024-10-12"
+    }
+  ],
+  "contact": {
+    "email": "kontakt@corefix.pl",
+    "phone": "+48 123 456 789",
+    "address": {
+      "street": "ul. Serwisowa 15",
+      "city": "Warszawa",
+      "postal": "00-001",
+      "country": "Polska"
+    },
+    "hours": {
+      "weekdays": "Poniedziałek - Piątek: 9:00 - 18:00",
+      "saturday": "Sobota: 10:00 - 14:00",
+      "sunday": "Niedziela: Nieczynne"
+    },
+    "social": {
+      "facebook": "https://facebook.com/corefix",
+      "instagram": "https://instagram.com/corefix",
+      "linkedin": "https://linkedin.com/company/corefix"
+    }
+  }
+}
