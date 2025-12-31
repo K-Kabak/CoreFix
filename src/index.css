@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@theme {
+  --font-family-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-family-mono: 'JetBrains Mono', 'Courier New', monospace;
+  
+  --color-primary: #00ADB5;
+  --color-primary-50: #E6F9FB;
+  --color-primary-100: #CCF3F7;
+  --color-primary-200: #99E7EF;
+  --color-primary-300: #66DBE7;
+  --color-primary-400: #33CFDF;
+  --color-primary-500: #00ADB5;
+  --color-primary-600: #008B91;
+  --color-primary-700: #00696D;
+  --color-primary-800: #004749;
+  --color-primary-900: #002524;
+  
+  --color-secondary: #393E46;
+  --color-secondary-50: #F0F1F3;
+  --color-secondary-100: #E0E3E6;
+  --color-secondary-200: #C1C6CD;
+  --color-secondary-300: #A3AAB3;
+  --color-secondary-400: #848D9A;
+  --color-secondary-500: #393E46;
+  --color-secondary-600: #2E3238;
+  --color-secondary-700: #23262A;
+  --color-secondary-800: #181A1D;
+  --color-secondary-900: #0C0D0F;
+  
+  --color-accent: #222831;
+  --color-accent-50: #F0F1F2;
+  --color-accent-100: #E1E3E4;
+  --color-accent-200: #C3C7C9;
+  --color-accent-300: #A5ABAF;
+  --color-accent-400: #878F95;
+  --color-accent-500: #222831;
+  --color-accent-600: #1B2027;
+  --color-accent-700: #14181D;
+  --color-accent-800: #0E1014;
+  --color-accent-900: #07080A;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-family-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+  }
+}
+
+@layer components {
+  .container-custom {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  @media (min-width: 640px) {
+    .container-custom {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .container-custom {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+  
+  .section-padding {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  @media (min-width: 768px) {
+    .section-padding {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
