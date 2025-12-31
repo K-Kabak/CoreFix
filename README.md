@@ -6,7 +6,7 @@
 
 **A modern, professional website for CoreFix computer repair services built with React, Vite, and Tailwind CSS v4.**
 
-[Features](#features) • [Tech Stack](#tech-stack) • [Quick Start](#quick-start) • [Documentation](#documentation) • [License](#license)
+[Features](#features) • [Tech Stack](#tech-stack) • [Quick Start](#quick-start) • [Screenshots](#-screenshots) • [Documentation](#documentation) • [License](#license)
 
 </div>
 
@@ -17,14 +17,17 @@
 - [About](#about)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
+- [Screenshots](#-screenshots)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Development](#development)
 - [Build & Preview](#build--preview)
 - [Project Structure](#project-structure)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
+- [Color Palette](#-color-palette)
+- [Internationalization](#-internationalization)
+- [Roadmap](#-roadmap)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 ---
 
@@ -54,6 +57,168 @@
 - 📊 **Polish Content**: Full Polish language support with professional copywriting
 - 🎭 **Accessibility**: Semantic HTML, WCAG-compliant color contrast
 - 📦 **Production Ready**: Optimized bundle (543KB JS, 53KB CSS)
+
+---
+
+## 📸 Screenshots
+
+### Desktop View
+
+#### Hero Section
+Homepage hero with animated headline, subtext, and call-to-action buttons.
+
+```
+[Screenshot would show:
+- Gradient background with circuit board pattern
+- "Profesjonalny serwis komputerowy" headline
+- Navigation bar (sticky)
+- CTA buttons with hover effects]
+```
+
+**To add screenshot:**
+1. Take a screenshot of http://localhost:5173/
+2. Save as `docs/screenshots/hero-desktop.png`
+3. In README, replace the code block above with:
+   ```markdown
+   ![Hero Section Desktop](docs/screenshots/hero-desktop.png)
+   ```
+
+#### Services Section
+Grid layout showcasing 4 repair services with icons and pricing.
+
+```
+[Screenshot would show:
+- 4 service cards in grid
+- Icons: CPU, HDD, shield, wrench
+- Service names and descriptions
+- Hover lift animation effect]
+```
+
+### Mobile View
+
+#### Mobile Navigation
+Responsive hamburger menu and stacked layout on mobile devices.
+
+```
+[Screenshot would show:
+- Mobile header with hamburger icon
+- Stacked single-column layout
+- Touch-friendly button sizes
+- Mobile menu expanded]
+```
+
+#### Services on Mobile
+Single column layout optimized for mobile screens.
+
+```
+[Screenshot would show:
+- Services in single column
+- Full-width cards
+- Mobile-optimized spacing
+- Touch-friendly interactions]
+```
+
+---
+
+### How to Add Screenshots
+
+#### Step 1: Capture Screenshots
+```bash
+# 1. Start dev server
+npm run dev
+
+# 2. Open http://localhost:5173/ in browser
+# 3. Use browser DevTools to set device mode (Desktop/Mobile/Tablet)
+# 4. Take screenshots of key sections:
+#    - Hero section
+#    - Services grid
+#    - Pricing section
+#    - FAQ accordion
+#    - Testimonials carousel
+#    - Contact form
+#    - Footer
+```
+
+#### Step 2: Organize Screenshots
+```
+docs/
+├── screenshots/
+│   ├── desktop/
+│   │   ├── hero-desktop.png
+│   │   ├── services-desktop.png
+│   │   ├── pricing-desktop.png
+│   │   └── contact-desktop.png
+│   └── mobile/
+│       ├── hero-mobile.png
+│       ├── services-mobile.png
+│       └── footer-mobile.png
+└── demo.gif
+```
+
+#### Step 3: Create GIF Demo
+```bash
+# Option 1: Using online tool
+# - Visit https://ezgif.com/
+# - Upload multiple screenshots
+# - Create GIF from images
+# - Download and save to docs/demo.gif
+
+# Option 2: Using ffmpeg (if installed)
+ffmpeg -framerate 0.5 -i screenshot_%02d.png -c:v libvpx-vp9 demo.gif
+```
+
+#### Step 4: Update README
+```markdown
+### Demo GIF
+![CoreFix Demo](docs/demo.gif)
+
+### Desktop Screenshots
+
+**Hero Section**
+![Hero Desktop](docs/screenshots/desktop/hero-desktop.png)
+
+**Services Grid**
+![Services Desktop](docs/screenshots/desktop/services-desktop.png)
+
+### Mobile Screenshots
+
+**Mobile Hero**
+![Hero Mobile](docs/screenshots/mobile/hero-mobile.png)
+
+**Mobile Services**
+![Services Mobile](docs/screenshots/mobile/services-mobile.png)
+```
+
+---
+
+### Using Browser Screenshot Tools
+
+#### Chrome DevTools Method
+1. Open http://localhost:5173/
+2. Right-click → **Inspect** (or F12)
+3. Device toolbar toggle (Ctrl+Shift+M)
+4. Select device (iPhone 12, iPad, Desktop)
+5. **Ctrl+Shift+P** → "Capture screenshot" or "Capture full page screenshot"
+6. Save to `docs/screenshots/`
+
+#### VS Code Screenshot Extension (Optional)
+Install extension: [Screenshot](https://marketplace.visualstudio.com/items?itemName=mrmcdormott.vscode-screenshot)
+
+---
+
+### Recommended Screenshots to Capture
+
+| Section | Desktop | Mobile | Notes |
+|---------|---------|--------|-------|
+| Hero | ✅ | ✅ | Full viewport, show animation |
+| About | ✅ | ✅ | 4 value cards |
+| Services | ✅ | ✅ | 4 service cards with hover |
+| Process | ✅ | ✅ | 5-step timeline |
+| Pricing | ✅ | ✅ | 3 pricing tiers |
+| FAQ | ✅ | ✅ | Accordion expanded |
+| Testimonials | ✅ | ✅ | Swiper slider |
+| Contact | ✅ | ✅ | Form with validation |
+| Footer | ✅ | ✅ | Dark footer section |
 
 ---
 
@@ -269,6 +434,8 @@ The website uses a modern, professional color scheme:
 
 All colors have 50-900 shade scales defined in `src/index.css` for flexible theming.
 
+View the [color palette on ColorHunt](https://colorhunt.co/palette/222831393e4600adb5eeeeee).
+
 ---
 
 ## 🌍 Internationalization
@@ -352,7 +519,7 @@ This project is licensed under the **MIT License** - see [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- Design inspiration from [ColorHunt](https://colorhunt.co/)
+- Design inspiration from [ColorHunt](https://colorhunt.co/palette/222831393e4600adb5eeeeee)
 - Icons from custom SVG design
 - Built with ❤️ for the CoreFix team
 
